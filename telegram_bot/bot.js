@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 
-const token = 'YOUR_BOT_TOKEN_HERE';
+const token = '8296784346:AAHc3XMCm4hgX5PatKaue91FrHTpGRewwAME';
 const bot = new TelegramBot(token, { polling: true });
 
 // دیتابیس ساده با JSON
@@ -48,3 +48,4 @@ setInterval(() => {
     }
   });
 }, 1000);
+
